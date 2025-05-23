@@ -6,7 +6,7 @@ Masalah ini relevan karena prediksi harga saham yang akurat dapat membantu inves
 
 **Referensi**:
 - A. N. Karmayuda, “Machine Learning Untuk Pemodelan Pergerakan Harga Saham PT Telkom Indonesia TBK,” Undergraduate thesis, Universitas Pembangunan Jaya, 2021.[1](https://eprints.upj.ac.id/id/eprint/2388/)
-- L. Setiawan, D. Susanti, and R. Riaman, “Analisis Perbandingan Hasil Peramalan Harga Saham Menggunakan Model Autoregresive Integrated Moving Average dan Long Short Term Memory,” *Jurnal Matematika Integratif*, vol. 19, no. 2, pp. 223–234, 2023.[2](https://repository.bsi.ac.id/repo/51717/PENERAPAN-DATA-MINING-DALAM-PREDIKSI-HARGA-SAHAM-DI-INDONESIA-MENGGUNAKAN-ALGORITMA-LSTM)
+- L. Setiawan, D. Susanti, and R. Riaman, “Analisis Perbandingan Hasil Peramalan Harga Saham Menggunakan Model Autoregresive Integrated Moving Average dan Long Short Term Memory,” *Jurnal Matematika Integratif*, vol. 19, no. 2, pp. 223–234, 2023.[2](https://jurnal.unpad.ac.id/jmi/article/view/42164)
 
 ## Business Understanding
 
@@ -105,13 +105,9 @@ Model yang digunakan dalam proyek ini adalah Long Short-Term Memory (LSTM), yang
 ### Metrik Evaluasi
 Metrik yang digunakan adalah:
 - **Mean Absolute Percentage Error (MAPE)**: Mengukur persentase kesalahan rata-rata relatif terhadap nilai aktual. Formula:  
-  $$
-  \text{MAPE} = \frac{1}{n} \sum_{i=1}^n \left| \frac{y_i - \hat{y}_i}{y_i} \right| \times 100
-  $$
+  $\text{MAPE} = \frac{1}{n} \sum_{i=1}^n \left| \frac{y_i - \hat{y}_i}{y_i} \right| \times 100$
 - **Root Mean Squared Error (RMSE)**: Mengukur akar kuadrat rata-rata kesalahan kuadrat. Formula:  
-  $$
-  \text{RMSE} = \sqrt{\frac{1}{n} \sum_{i=1}^n (y_i - \hat{y}_i)^2}
-  $$
+  $\text{RMSE} = \sqrt{\frac{1}{n} \sum_{i=1}^n (y_i - \hat{y}_i)^2}$
 
 ### Hasil Proyek
 - **Model LSTM**:
