@@ -105,13 +105,13 @@ Model yang digunakan dalam proyek ini adalah Long Short-Term Memory (LSTM), yang
 ### Metrik Evaluasi
 Metrik yang digunakan adalah:
 - **Mean Absolute Percentage Error (MAPE)**: Mengukur persentase kesalahan rata-rata relatif terhadap nilai aktual. Formula:  
-  \[
+  $$
   \text{MAPE} = \frac{1}{n} \sum_{i=1}^n \left| \frac{y_i - \hat{y}_i}{y_i} \right| \times 100
-  \]
+  $$
 - **Root Mean Squared Error (RMSE)**: Mengukur akar kuadrat rata-rata kesalahan kuadrat. Formula:  
-  \[
+  $$
   \text{RMSE} = \sqrt{\frac{1}{n} \sum_{i=1}^n (y_i - \hat{y}_i)^2}
-  \]
+  $$
 
 ### Hasil Proyek
 - **Model LSTM**:
